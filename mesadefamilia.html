@@ -109,6 +109,23 @@ Leve novamente para o freezer e aguarde mais 5 horas.
 </p>
         </div>
     </div>
+    <h2> Quer participar do nosso site? Nos envie a sua receita!</h2>
+    <form action="#" method="POST">
+        <label for="nome">Nome da Família:</label>
+        <input type="text" id="nome" onkeyup="validaNome()" name="nome" required><br><br>
+        <div id="txtNome"></div>
+
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" onkeyup="validaEmail()" name="email" required><br><br>
+        <div id="txtEmail"></div>
+
+        <label for="receita">Receita</label>
+        <input type="text" id="receita">
+
+        <input type="submit" value="Cadastrar">
+    </form>
 <footer>Desenvolvido por Beatriz Campos, 2023 &copy;</footer>
+<script src="script.js"></script>
 </body>
 </html>
